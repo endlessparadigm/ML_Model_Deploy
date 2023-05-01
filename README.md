@@ -12,26 +12,19 @@ Let's cover a few things prior to setting up our CI/CD pipelines, versioning, re
 
 > Does the data contain personal or financial information (in which case are there any privacy or encryption protocols that need to be included)? Maybe the data is out of date, incorrect, or not being catalogued based on corporate expectations or metadata guidelines applied by the business.
 
+## Requirements
 It seems the dataset is a simple .CSV, with the associated models included in the folder.
 
-[requirements.txt Add screenshot of such here]
+[Folder Add screenshot of such here]
 
-> Requirements:
+What other parameters or requirements has the business provided?
 
-> Add Requirements.
-
-> What other parameters or requirements has the business provided?
-
-Included in our attachment is list of the following:
-
-.txt - 
-CI/CD Pipeline
-
-
+***[requirements.txt]***
+> Register model and upload data to new repo. Create the ML pipeline via Git on our share. Monitor, validate, and schedule it (First Thursdays monthly) Don't forget scalability. 
 
 
 At this point we want to upload the dataset and model(s) to the appropriate repositories and registries. This helps us keep a catalogue of all of our datasets and models, and helps the business to audit, discover, or access previous versions or editions of the aforementioned. For our demo, I have saved it in personal folders on my drive titled:
-> /Projects/Datasets/ and /Projects/Models/.
+> /Projects/Datasets/ and /Projects/Models/
 
 ## [Setting up the Repository]
 ## [Containerizing the Model]
@@ -55,15 +48,16 @@ Check on CI/CD pipelines on  Github.
 
 With this exercise we accomplished the following tasks:
 > Model registry - for version changing and code control
+> 
 > Dataset management - Dataset repositories, data quality standards, privacy and encryption protocols
+> 
 > Shared environments (?) - Reusability of models
+> 
 > Pipeline scheduling and job dependencies
+> 
 > Automated deployment
+> 
 > Scalability (?)
+> 
 > Audit and monitoring (pipeline health)
 
-ML Pipeline:
-
-Git
-CI/CD
-Azure, DataBricks, Spark
